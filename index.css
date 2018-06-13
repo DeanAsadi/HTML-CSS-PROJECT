@@ -1,0 +1,87 @@
+body {
+  background: salmon;
+  color: slategrey;
+  font-size: 15px;
+}
+
+nav {
+  margin: 50px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  cursor: pointer;
+  font-family: fantasy;
+}
+
+.btn {
+  border: 1px solid slategrey;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: fantasy;
+}
+
+.midLogo {
+  display: flex;
+  justify-content: center;
+  /* align-items: center */
+  /* position: relative; */
+  width: 40px;
+  margin: 0 auto;
+}
+
+.mainLogo {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  font-family: fantasy;
+}
+.btnExplore {
+  padding: 20px;
+  background: white;
+  color: blue;
+  border-radius: 010px;
+  margin-left: 500px;
+  margin-right: 505px;
+  text-align: center;
+  cursor: pointer;
+  font-family: fantasy;
+}
+
+.contentHeader {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+  font-size: 55px;
+  font-weight: 950;
+  font-family: fantasy;
+}
+
+.contentInner {
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-left: 350px;
+  margin-right: 350px;
+  line-height: 30px;
+  font-size: 17px;
+  font-family: fantasy;
+}
+
+.scroll {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  cursor: pointer;
+}
